@@ -2,39 +2,93 @@
   font-family: roboto, "Times New Roman", Times, serif;
   color: #1f2937;
 }
-
+p {
+  font-weight: lighter;
+}
 body {
 }
 #hero {
   background-color: #1f2937;
   color: white;
 }
-nav {
-  display: grid;
-  justify-content: space-between;
-  background-color: #1f2937;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+#hero h1 {
+  color: white;
+}
+#hero p {
+  color: white;
 }
 
-nav h2 {
+nav {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+nav h3 {
   color: white;
+  margin-top: 1%;
 }
 nav a {
   text-decoration: none;
   padding: 10px;
   color: white;
+  display: inline-flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
 }
-
+#hero-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+#hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 40%;
+}
+#hero-right h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0%;
+}
+#hero-right p {
+  margin-top: 0%;
+}
 button {
   background-color: #3882f6;
   color: white;
   border-radius: 5px;
   padding: 5px 20px;
   border-width: 0;
+  max-width: 25%;
 }
 
+#img-container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 60%;
+}
+
+#img-container p {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 100px;
+}
 #main {
+}
+#main h2 {
+  display: flex;
+  justify-content: center;
+  padding: 0 15%;
+  max-width: 100%;
+}
+
+#main p {
+  display: inline-flex;
+  padding: 0 15%;
 }
 
 #footer {
