@@ -1,0 +1,48 @@
+* {
+  font-family: roboto, "Times New Roman", Times, serif;
+  color: #1f2937;
+}
+
+body {
+}
+#hero {
+  background-color: #1f2937;
+  color: white;
+}
+nav {
+  display: grid;
+  justify-content: space-between;
+  background-color: #1f2937;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+nav h2 {
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  border-width: 0;
+}
+
+#main {
+}
+
+#footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+#footer p {
+  color: white;
+}
