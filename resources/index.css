@@ -4,6 +4,7 @@
 }
 p {
   font-weight: lighter;
+  font-size: 0.85rem;
 }
 body {
 }
@@ -43,17 +44,17 @@ nav a {
   justify-content: space-between;
   padding: 0 15%;
 }
-#hero-right {
+#hero-left {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 40%;
 }
-#hero-right h1 {
+#hero-left h1 {
   font-size: 2.25rem;
   margin-bottom: 0%;
 }
-#hero-right p {
+#hero-left p {
   margin-top: 0%;
 }
 button {
@@ -76,21 +77,52 @@ button {
   justify-content: center;
   background-color: gray;
   padding: 100px;
+  margin-bottom: 25%;
 }
 #main {
+  padding: 0 15%;
+  margin-bottom: 5%;
+}
+#main-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15%;
 }
 #main h2 {
   display: flex;
   justify-content: center;
-  padding: 0 15%;
-  max-width: 100%;
 }
 
-#main p {
-  display: inline-flex;
-  padding: 0 15%;
+#empty-box {
+  border: 2px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#main-container p {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  text-align: center;
 }
 
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 10% 25%;
+  margin-bottom: 10%;
+}
+#quote p {
+  font-size: 2rem;
+  margin-bottom: 0%;
+}
+#quote h4 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10%;
+}
 #footer {
   background-color: #1f2937;
   display: flex;
@@ -99,4 +131,5 @@ button {
 
 #footer p {
   color: white;
+  padding: 20px;
 }
