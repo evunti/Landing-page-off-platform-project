@@ -2,7 +2,9 @@
   font-family: roboto, "Times New Roman", Times, serif;
   color: #1f2937;
 }
-
+p {
+  font-weight: lighter;
+}
 body {
 }
 #hero {
@@ -48,6 +50,10 @@ button {
   padding: 5px 20px;
   border-width: 0;
   max-width: 20%;
+}
+#img-conatiner {
+  padding: 40px;
+  background-color: gray;
 }
 #main {
 }
