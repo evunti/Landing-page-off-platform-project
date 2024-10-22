@@ -23,6 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 15%;
+  margin-bottom: 5%;
 }
 
 nav h3 {
@@ -50,7 +51,7 @@ nav a {
 #hero-left h1 {
   font-size: 2.25rem;
   margin-bottom: 0%;
-  padding: 0%;
+  padding: 0;
 }
 #hero-left p {
   margin-top: 0%;
@@ -67,7 +68,7 @@ nav a {
 #img-container {
   display: flex;
   justify-content: flex-end;
-  max-width: 60%;
+  /* max-width: 60%; */
 }
 
 #img-container p {
@@ -171,4 +172,95 @@ nav a {
 #footer p {
   color: white;
   padding: 20px;
+}
+
+@media screen and (max-width: 754px) {
+  p {
+    font-weight: lighter;
+    font-size: 0.5rem;
+  }
+
+  h1 {
+    color: white;
+    font-size: 0.85rem;
+  }
+  h2 {
+    color: white;
+    font-size: 0.85rem;
+  }
+  h3 {
+    color: white;
+    font-size: 0.85rem;
+  }
+  /* a {
+    color: white;
+    font-size: smaller;
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  } */
+  /* nav {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+  }*/
+
+  #hero-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    /* flex-wrap: wrap; */
+  }
+  #hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%;
+  }
+  #hero-left h1 {
+    font-size: 1.5em;
+  }
+  #hero-left button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border-width: 0;
+    font-size: 0.5rem;
+  }
+
+  #img-container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 40%;
+  }
+  #img-container p {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 50px;
+    margin-bottom: 25%;
+  }
+
+  /* #main {
+    padding: 0 15%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  } */
+  /* #main-container {
+    padding: 0% 15%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  } */
 }
