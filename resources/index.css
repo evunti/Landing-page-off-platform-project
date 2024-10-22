@@ -4,9 +4,9 @@
 }
 p {
   font-weight: lighter;
+  font-size: 0.85rem;
 }
-body {
-}
+
 #hero {
   background-color: #1f2937;
   color: white;
@@ -33,8 +33,6 @@ nav a {
   text-decoration: none;
   padding: 10px;
   color: white;
-  display: inline-flex;
-  justify-content: flex-end;
   font-size: 0.75rem;
 }
 #hero-container {
@@ -43,20 +41,21 @@ nav a {
   justify-content: space-between;
   padding: 0 15%;
 }
-#hero-right {
+#hero-left {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 40%;
 }
-#hero-right h1 {
+#hero-left h1 {
   font-size: 2.25rem;
   margin-bottom: 0%;
+  padding: 0%;
 }
-#hero-right p {
+#hero-left p {
   margin-top: 0%;
 }
-button {
+#hero-left button {
   background-color: #3882f6;
   color: white;
   border-radius: 5px;
@@ -76,21 +75,93 @@ button {
   justify-content: center;
   background-color: gray;
   padding: 100px;
+  margin-bottom: 25%;
 }
 #main {
+  padding: 0 15%;
+  margin-bottom: 5%;
+}
+#main-container {
+  padding: 0% 15%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.empty-box {
+  border: 2px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
 #main h2 {
   display: flex;
   justify-content: center;
-  padding: 0 15%;
-  max-width: 100%;
+  padding: 30px;
 }
 
-#main p {
-  display: inline-flex;
-  padding: 0 15%;
+#main-container p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 150px;
+  text-align: center;
 }
 
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 10% 25%;
+  margin-bottom: 10%;
+}
+#quote p {
+  font-size: 2rem;
+  margin-bottom: 0%;
+}
+#quote h4 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10%;
+}
+#floating-container {
+  padding: 0 15% 2%;
+}
+#floating-container h3 {
+  color: white;
+}
+#floating-container p {
+  color: white;
+}
+
+#float {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 0;
+}
+#float-left {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+}
+
+#float button {
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: #3882f6;
+  padding: 0px 20px;
+}
+
+#float-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 0;
+}
 #footer {
   background-color: #1f2937;
   display: flex;
@@ -99,4 +170,5 @@ button {
 
 #footer p {
   color: white;
+  padding: 20px;
 }
