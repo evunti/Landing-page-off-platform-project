@@ -241,19 +241,16 @@ nav a {
     margin-bottom: 25%;
   }
 
-  /* #main {
-    padding: 0 15%;
-    margin-bottom: 5%;
+  #main-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-  } */
-  /* #main-container {
-    padding: 0% 15%;
-    display: flex;
-    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
-  } */
+  }
+  .empty-box {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
 }
