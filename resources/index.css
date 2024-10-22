@@ -192,21 +192,13 @@ nav a {
     color: white;
     font-size: 0.85rem;
   }
-  /* a {
+
+  nav a {
+    text-decoration: none;
+    padding: 2px;
     color: white;
-    font-size: smaller;
-    display: inline-flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-  } */
-  /* nav {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15%;
-    margin-bottom: 5%;
-    flex-wrap: wrap;
-  }*/
+    font-size: 0.55rem;
+  }
 
   #hero-container {
     background-color: #1f2937;
@@ -227,10 +219,11 @@ nav a {
   #hero-left button {
     background-color: #3882f6;
     color: white;
-    border-radius: 5px;
+    border-radius: 2px;
     display: inline-flex;
     justify-content: center;
     flex-wrap: nowrap;
+    padding: 0;
     border-width: 0;
     font-size: 0.5rem;
   }
