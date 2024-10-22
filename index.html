@@ -4,16 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link src="stylesheet" href="./resources/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./resources/reset.css" />
+    <link rel="stylesheet" href="./resources/index.css" />
   </head>
   <body>
-    <nav>
-      <a href #hero>About</a>
-      <a href #main>Product</a>
-      <a href #footer>Contact</a>
-    </nav>
-    <hero> </hero>
-    <main></main>
-    <footer></footer>
+    <div id="hero">
+      <div>
+        <nav>
+          <h3>Header Logo</h3>
+          <div id="nav-bar">
+            <a href="#hero">header link one</a>
+            <a href="#main">header link two</a>
+            <a href="#footer">header link three</a>
+          </div>
+        </nav>
+      </div>
+
+      <div id="hero-container">
+        <div id="hero-left">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+
+        <div id="img-container">
+          <p>this is a placeholder for an image</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="main">
+      <h2>Some random information.</h2>
+
+      <div id="main-container">
+        <div id="container-1">
+          <div class="empty-box"></div>
+          <p>this is some subtext under an illustration or image.</p>
+        </div>
+        <div id="container-2">
+          <div class="empty-box"></div>
+          <p>this is some subtext under an illustration or image.</p>
+        </div>
+        <div id="container-3">
+          <div class="empty-box"></div>
+          <p>this is some subtext under an illustration or image.</p>
+        </div>
+        <div id="container-4">
+          <div class="empty-box"></div>
+          <p>this is some subtext under an illustration or image.</p>
+        </div>
+      </div>
+    </div>
+    <div id="quote">
+      <p>
+        “A day can really slip by when you're deliberately avoiding what you're
+        supposed to do.”
+      </p>
+      <h4>-Bill Watterson</h4>
+    </div>
+
+    <div id="floating-container">
+      <div id="float">
+        <div id="float-left">
+          <h3>Call to action! It's time!</h3>
+          <p>
+            Sign up for our product by clicking that buttonright over there!
+          </p>
+        </div>
+        <div id="float-right">
+          <button>Sign up</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>Copyright © The Odin Project 2021</p>
+    </div>
   </body>
 </html>
