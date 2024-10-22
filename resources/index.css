@@ -128,27 +128,29 @@ button {
 
 #floating-container {
   background-color: #3882f6;
-  margin: 0 15%;
   border-radius: 5px;
-  text-align: center;
 }
+#float {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
 #floating-container p {
   color: white;
-  padding: 0 15%;
   display: flex;
   justify-content: flex-start;
 }
 
 #floating-container h3 {
   color: white;
-  padding: 0 15%;
   display: flex;
   justify-content: flex-start;
 }
 #floating-button {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 #floating-container button {
   border: solid white;
