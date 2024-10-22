@@ -174,7 +174,9 @@ nav a {
   padding: 20px;
 }
 
+
 @media screen and (max-width: 750px) {
+
   p {
     font-weight: lighter;
     font-size: 0.5rem;
