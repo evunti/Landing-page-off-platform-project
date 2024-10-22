@@ -6,8 +6,7 @@ p {
   font-weight: lighter;
   font-size: 0.85rem;
 }
-body {
-}
+
 #hero {
   background-color: #1f2937;
   color: white;
@@ -89,7 +88,7 @@ button {
   justify-content: center;
   gap: 20px;
 }
-#empty-box {
+.empty-box {
   border: 2px solid #3882f6;
   width: 150px;
   height: 150px;
@@ -126,6 +125,36 @@ button {
   justify-content: flex-end;
   padding: 0 10%;
 }
+
+#floating-container {
+  background-color: #3882f6;
+  margin: 0 15%;
+  border-radius: 5px;
+  text-align: center;
+}
+#floating-container p {
+  color: white;
+  padding: 0 15%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#floating-container h3 {
+  color: white;
+  padding: 0 15%;
+  display: flex;
+  justify-content: flex-start;
+}
+#floating-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#floating-container button {
+  border: solid white;
+  padding: 2%;
+}
+
 #footer {
   background-color: #1f2937;
   display: flex;
