@@ -195,17 +195,18 @@ nav a {
 
   nav a {
     text-decoration: none;
-    padding: 2px;
+    padding: 1px;
     color: white;
-    font-size: 0.55rem;
+    font-size: 0.4rem;
   }
-
+  nav h3 {
+    font-size: 0.75rem;
+  }
   #hero-container {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 0 15%;
-    /* flex-wrap: wrap; */
   }
   #hero-left {
     display: flex;
