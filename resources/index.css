@@ -33,8 +33,6 @@ nav a {
   text-decoration: none;
   padding: 10px;
   color: white;
-  display: inline-flex;
-  justify-content: flex-end;
   font-size: 0.75rem;
 }
 #hero-container {
@@ -52,11 +50,12 @@ nav a {
 #hero-left h1 {
   font-size: 2.25rem;
   margin-bottom: 0%;
+  padding: 0%;
 }
 #hero-left p {
   margin-top: 0%;
 }
-button {
+#hero-left button {
   background-color: #3882f6;
   color: white;
   border-radius: 5px;
@@ -126,7 +125,7 @@ button {
   padding: 0 10%;
 }
 #floating-container {
-  padding: 0 15%;
+  padding: 0 15% 2%;
 }
 #floating-container h3 {
   color: white;
@@ -145,17 +144,24 @@ button {
 #float-left {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0%;
+  padding: 5% 0;
 }
 
-#float-right button {
-  border: solid white;
+#float button {
+  border: 2px solid white;
   border-radius: 5px;
-  padding: 5px 20px;
-  border-width: 0;
-  max-width: 25%;
+  color: white;
+  background-color: #3882f6;
+  padding: 0px 20px;
 }
 
+#float-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 0;
+}
 #footer {
   background-color: #1f2937;
   display: flex;
