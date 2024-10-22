@@ -125,36 +125,35 @@ button {
   justify-content: flex-end;
   padding: 0 10%;
 }
-
 #floating-container {
-  background-color: #3882f6;
-  border-radius: 5px;
-}
-#float {
-  display: flex;
-  justify-content: space-between;
   padding: 0 15%;
 }
-
-#floating-container p {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-}
-
 #floating-container h3 {
   color: white;
-  display: flex;
-  justify-content: flex-start;
 }
-#floating-button {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: flex-end; */
+#floating-container p {
+  color: white;
 }
-#floating-container button {
+
+#float {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 0;
+}
+#float-left {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0%;
+}
+
+#float-right button {
   border: solid white;
-  padding: 2%;
+  border-radius: 5px;
+  padding: 5px 20px;
+  border-width: 0;
+  max-width: 25%;
 }
 
 #footer {
