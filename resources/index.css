@@ -174,7 +174,7 @@ nav a {
   padding: 20px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 300px) {
   p {
     font-weight: lighter;
     font-size: 0.5rem;
@@ -197,7 +197,7 @@ nav a {
     text-decoration: none;
     padding: 1px;
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
   }
   nav h3 {
     font-size: 0.75rem;
