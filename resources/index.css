@@ -64,11 +64,14 @@ nav a {
   border-width: 0;
   max-width: 30%;
 }
+#hero-left button:hover {
+  background-color: #e5e7eb;
+}
 
 #img-container {
   display: flex;
   justify-content: flex-end;
-  /* max-width: 60%; */
+  max-width: 60%;
 }
 
 #img-container p {
@@ -154,6 +157,9 @@ nav a {
   color: white;
   background-color: #3882f6;
   padding: 0px 20px;
+}
+#float button:hover {
+  background-color: #e5e7eb;
 }
 
 #float-right {
