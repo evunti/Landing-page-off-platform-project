@@ -64,11 +64,14 @@ nav a {
   border-width: 0;
   max-width: 30%;
 }
+#hero-left button:hover {
+  background-color: #e5e7eb;
+}
 
 #img-container {
   display: flex;
   justify-content: flex-end;
-  /* max-width: 60%; */
+  max-width: 60%;
 }
 
 #img-container p {
@@ -155,6 +158,9 @@ nav a {
   background-color: #3882f6;
   padding: 0px 20px;
 }
+#float button:hover {
+  background-color: #e5e7eb;
+}
 
 #float-right {
   display: flex;
@@ -174,7 +180,7 @@ nav a {
   padding: 20px;
 }
 
-@media screen and (max-width: 754px) {
+@media screen and (max-width: 750px) {
   p {
     font-weight: lighter;
     font-size: 0.5rem;
@@ -197,7 +203,7 @@ nav a {
     text-decoration: none;
     padding: 1px;
     color: white;
-    font-size: 0.4rem;
+    font-size: 0.3rem;
   }
   nav h3 {
     font-size: 0.75rem;
